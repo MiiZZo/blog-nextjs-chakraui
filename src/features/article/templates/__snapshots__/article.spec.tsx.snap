@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`article teamplate should match a shapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1bxarir"
+  >
+    <h2
+      class="css-p5x3r9"
+    >
+      My title
+    </h2>
+    <p
+      class="css-13c355n"
+    >
+      my description
+    </p>
+    <div
+      class="css-j7qwjs"
+    >
+      <div>
+        <span>
+          My body
+        </span>
+      </div>
+      <div
+        class="css-x60757"
+      >
+        <button
+          class="css-1j5zsfu"
+          data-testid="show"
+          type="button"
+        >
+          Write a comment
+        </button>
+        <h2
+          class="css-ijbsz0"
+        >
+          Comments - 1
+        </h2>
+        <div
+          class="css-j7qwjs"
+        >
+          <div
+            class="css-1baulvz"
+          >
+            <div
+              class="css-1xhj18k"
+            >
+              <div
+                class="css-1dq3ymi"
+              >
+                <div
+                  class="css-uwwqev"
+                >
+                  <svg
+                    fill="#fff"
+                    role="img"
+                    viewBox="0 0 128 128"
+                  >
+                    <g>
+                      <path
+                        d="M103,102.1388 C93.094,111.92 79.3504,118 64.1638,118 C48.8056,118 34.9294,111.768 25,101.7892 L25,95.2 C25,86.8096 31.981,80 40.6,80 L87.4,80 C96.019,80 103,86.8096 103,95.2 L103,102.1388 Z"
+                      />
+                      <path
+                        d="M63.9961647,24 C51.2938136,24 41,34.2938136 41,46.9961647 C41,59.7061864 51.2938136,70 63.9961647,70 C76.6985159,70 87,59.7061864 87,46.9961647 C87,34.2938136 76.6985159,24 63.9961647,24"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="css-j7qwjs"
+              >
+                <p
+                  class="css-1e05cmt"
+                >
+                  Nickname
+                </p>
+                <p
+                  class="css-14qr7dv"
+                  data-testid="body"
+                >
+                  my body
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`article teamplate should show the create comment component 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1bxarir"
+  >
+    <h2
+      class="css-p5x3r9"
+    >
+      My title
+    </h2>
+    <p
+      class="css-13c355n"
+    >
+      my description
+    </p>
+    <div
+      class="css-j7qwjs"
+    >
+      <div>
+        <span>
+          My body
+        </span>
+      </div>
+      <div
+        class="css-x60757"
+      >
+        <div
+          class="css-1sowyjy"
+        >
+          <div
+            class="css-1cl7zdz"
+          >
+            <div
+              class="css-kjafn5"
+            >
+              <textarea
+                class="css-jq13t9"
+                data-testid="textarea"
+                name="comment"
+                placeholder="Write a comment..."
+              />
+              <div
+                class="css-1f4xxbf"
+              >
+                <div
+                  aria-valuemax="500"
+                  aria-valuemin="0"
+                  aria-valuenow="0"
+                  class="css-1bfqfh5"
+                  data-testid="circular-indicator"
+                  role="progressbar"
+                >
+                  <svg
+                    class="css-24ggqe"
+                    viewBox="55.55555555555556 55.55555555555556 111.11111111111111 111.11111111111111"
+                  >
+                    <circle
+                      class="css-9y0bww"
+                      cx="111.11111111111111"
+                      cy="111.11111111111111"
+                      data-progress-track="true"
+                      r="50"
+                      stroke-dasharray="314.159"
+                      stroke-dashoffset="0"
+                      stroke-width="11.111111111111112"
+                    />
+                    <circle
+                      class="css-ich4kh"
+                      cx="111.11111111111111"
+                      cy="111.11111111111111"
+                      data-progress-indicator="true"
+                      r="50"
+                      stroke-dasharray="314.159"
+                      stroke-dashoffset="314.1592653589793"
+                      stroke-width="11.111111111111112"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <button
+              class="css-skyqpb"
+              data-testid="submit"
+              type="button"
+            >
+              Submit comment
+            </button>
+            <button
+              class="css-w8jeta"
+              data-testid="close"
+              type="button"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+        <h2
+          class="css-ijbsz0"
+        >
+          Comments - 1
+        </h2>
+        <div
+          class="css-j7qwjs"
+        >
+          <div
+            class="css-1baulvz"
+          >
+            <div
+              class="css-1xhj18k"
+            >
+              <div
+                class="css-1dq3ymi"
+              >
+                <div
+                  class="css-uwwqev"
+                >
+                  <svg
+                    fill="#fff"
+                    role="img"
+                    viewBox="0 0 128 128"
+                  >
+                    <g>
+                      <path
+                        d="M103,102.1388 C93.094,111.92 79.3504,118 64.1638,118 C48.8056,118 34.9294,111.768 25,101.7892 L25,95.2 C25,86.8096 31.981,80 40.6,80 L87.4,80 C96.019,80 103,86.8096 103,95.2 L103,102.1388 Z"
+                      />
+                      <path
+                        d="M63.9961647,24 C51.2938136,24 41,34.2938136 41,46.9961647 C41,59.7061864 51.2938136,70 63.9961647,70 C76.6985159,70 87,59.7061864 87,46.9961647 C87,34.2938136 76.6985159,24 63.9961647,24"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="css-j7qwjs"
+              >
+                <p
+                  class="css-1e05cmt"
+                >
+                  Nickname
+                </p>
+                <p
+                  class="css-14qr7dv"
+                  data-testid="body"
+                >
+                  my body
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

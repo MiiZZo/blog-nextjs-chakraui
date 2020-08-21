@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header component should match a shapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="css-1a9nlhj"
+  >
+    <div
+      class="css-1c024tv"
+    >
+      <a
+        class="css-u5zpo1"
+      >
+        Articles
+      </a>
+      <div
+        class="css-zdpt2t"
+      >
+        <a
+          class="css-zkrcyx"
+          data-testid="sign-in-link"
+        >
+          Sign In
+        </a>
+        <button
+          class="css-yrfwly"
+          data-testid="sign-up-link"
+          type="button"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </header>
+</DocumentFragment>
+`;
+
+exports[`header component should show auth links 1`] = `
+<DocumentFragment>
+  <header
+    class="css-1a9nlhj"
+  >
+    <div
+      class="css-1c024tv"
+    >
+      <a
+        class="css-u5zpo1"
+      >
+        Articles
+      </a>
+      <div
+        class="css-zdpt2t"
+      >
+        <a
+          class="css-zkrcyx"
+          data-testid="sign-in-link"
+        >
+          Sign In
+        </a>
+        <button
+          class="css-yrfwly"
+          data-testid="sign-up-link"
+          type="button"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </header>
+</DocumentFragment>
+`;
+
+exports[`header component should show the spinner 1`] = `
+<DocumentFragment>
+  <header
+    class="css-1a9nlhj"
+  >
+    <div
+      class="css-1c024tv"
+    >
+      <a
+        class="css-u5zpo1"
+      >
+        Articles
+      </a>
+      <div
+        class="css-zdpt2t"
+      >
+        <div
+          class="css-u5juui"
+          data-testid="spinner"
+        >
+          <div
+            class="css-1gy22ay"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</DocumentFragment>
+`;
+
+exports[`header component should show user links 1`] = `
+<DocumentFragment>
+  <header
+    class="css-1a9nlhj"
+  >
+    <div
+      class="css-1c024tv"
+    >
+      <a
+        class="css-u5zpo1"
+      >
+        Articles
+      </a>
+      <div
+        class="css-zdpt2t"
+      >
+        <a
+          aria-label="link to draft"
+          class="css-1bc7r7z"
+          data-testid="link-to-draft"
+          title="draft"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-1im46kq"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="full"
+              stroke-width="2"
+            >
+              <path
+                d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
+              />
+              <path
+                d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"
+              />
+            </g>
+          </svg>
+        </a>
+        <button
+          class="css-5k16re"
+          data-testid="logout"
+          type="button"
+        >
+          Logout
+        </button>
+      </div>
+    </div>
+  </header>
+</DocumentFragment>
+`;

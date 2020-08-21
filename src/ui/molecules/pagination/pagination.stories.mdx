@@ -1,0 +1,25 @@
+import { Meta, Story, Canvas, Props } from '@storybook/addon-docs/blocks';
+import { Box } from "@chakra-ui/core";
+import Pagination from "./pagination";
+
+<Meta title="UI|atoms" component={Pagination} />
+
+# Pagination
+
+<Props of={Pagination} />
+
+<Preview>
+  <Story name="pagination">
+    {() => {
+      const [current, setCurrent] = React.useState(1);
+      const handleChangeCurrent = (current) => {
+        setCurrent(current);
+      }
+      return (
+        <Box p={5}>
+          <Pagination current={current} total={50} onChange={setCurrent}/>
+        </Box>
+      )
+    }}
+  </Story>
+</Preview>

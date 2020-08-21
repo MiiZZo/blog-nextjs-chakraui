@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`common page component should match a shapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-o44is"
+  >
+    <div
+      class="css-92qjs2"
+    >
+      <div>
+        children
+      </div>
+    </div>
+    <div>
+      footer
+    </div>
+  </div>
+</DocumentFragment>
+`;

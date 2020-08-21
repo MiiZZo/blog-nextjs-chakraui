@@ -1,0 +1,24 @@
+import { Meta, Story, Props, Preview } from "@storybook/addon-docs/blocks";
+import CommonPage from "./common-page";
+import Header from "../../molecules/header";
+import Footer from "../../molecules/footer";
+import { Article } from "@features/article/templates/article.stories";
+
+<Meta title="UI|Templates" component={CommonPage} />
+
+# Common page template
+
+<Props of={CommonPage} />
+
+<Preview>
+  <Story name="Common page">
+    <Box p={5}>
+      <CommonPage
+        header={<Header />}
+        footer={<Footer />}
+      >
+        <Article />
+      </CommonPage>
+    </Box>
+  </Story>
+</Preview>

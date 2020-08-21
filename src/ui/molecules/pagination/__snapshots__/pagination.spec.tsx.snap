@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pagination component should match a shapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-8xl60i"
+  >
+    <div
+      class="css-u4p24i"
+    >
+      <button
+        aria-disabled="true"
+        aria-label="move to first page"
+        class="css-1mrta8r"
+        data-testid="first-paginate-button"
+        disabled=""
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-1im46kq"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <g
+            fill="currentColor"
+          >
+            <path
+              d="M10.416,12a2.643,2.643,0,0,1,.775-1.875L20.732.584a1.768,1.768,0,0,1,2.5,2.5l-8.739,8.739a.25.25,0,0,0,0,.354l8.739,8.739a1.768,1.768,0,0,1-2.5,2.5l-9.541-9.541A2.643,2.643,0,0,1,10.416,12Z"
+            />
+            <path
+              d="M.25,12a2.643,2.643,0,0,1,.775-1.875L10.566.584a1.768,1.768,0,0,1,2.5,2.5L4.327,11.823a.25.25,0,0,0,0,.354l8.739,8.739a1.768,1.768,0,0,1-2.5,2.5L1.025,13.875A2.643,2.643,0,0,1,.25,12Z"
+            />
+          </g>
+        </svg>
+      </button>
+      <div
+        class="css-sarrtm"
+      >
+        <button
+          class="css-wcven5"
+          data-testid="paginate-button"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="css-mtrgpb"
+          data-testid="paginate-button"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="css-mtrgpb"
+          data-testid="paginate-button"
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="css-mtrgpb"
+          data-testid="paginate-button"
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="css-ej70pr"
+          data-testid="paginate-button"
+          type="button"
+        >
+          5
+        </button>
+      </div>
+      <button
+        aria-label="move to last page"
+        class="css-1wf4v31"
+        data-testid="last-paginate-button"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-1im46kq"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <g
+            fill="currentColor"
+          >
+            <path
+              d="M13.584,12a2.643,2.643,0,0,1-.775,1.875L3.268,23.416a1.768,1.768,0,0,1-2.5-2.5l8.739-8.739a.25.25,0,0,0,0-.354L.768,3.084a1.768,1.768,0,0,1,2.5-2.5l9.541,9.541A2.643,2.643,0,0,1,13.584,12Z"
+            />
+            <path
+              d="M23.75,12a2.643,2.643,0,0,1-.775,1.875l-9.541,9.541a1.768,1.768,0,0,1-2.5-2.5l8.739-8.739a.25.25,0,0,0,0-.354L10.934,3.084a1.768,1.768,0,0,1,2.5-2.5l9.541,9.541A2.643,2.643,0,0,1,23.75,12Z"
+            />
+          </g>
+        </svg>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

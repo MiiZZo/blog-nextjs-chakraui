@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`404 page should match the component 1`] = `
+<DocumentFragment>
+  <div
+    class="css-3z75l1"
+  >
+    <h2
+      class="css-p5x3r9"
+    >
+      404 | Page not found
+    </h2>
+    <div
+      class="css-nmceeh"
+    >
+      <a
+        href="/"
+      >
+        <button
+          class="css-1vr2bmh"
+          type="button"
+        >
+          Home
+        </button>
+      </a>
+      <button
+        class="css-jo9fku"
+        data-testid="back"
+        type="button"
+      >
+        Back
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`article page should match the shapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-o44is"
+  >
+    <div
+      class="css-92qjs2"
+    >
+      <button
+        aria-label="go to back page"
+        class="css-t07mrt"
+        data-testid="back"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-1im46kq"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+      <p
+        class="css-mxgxyn"
+      >
+        0NaN-0NaN-NaN
+      </p>
+      <div
+        class="css-1bxarir"
+      >
+        <h2
+          class="css-p5x3r9"
+        />
+        <p
+          class="css-13c355n"
+        />
+        <div
+          class="css-j7qwjs"
+        >
+          <div>
+            <span />
+          </div>
+          <div
+            class="css-x60757"
+          >
+            <button
+              class="css-1j5zsfu"
+              data-testid="show"
+              type="button"
+            >
+              Write a comment
+            </button>
+            <h2
+              class="css-ijbsz0"
+            >
+              Comments - 0
+            </h2>
+            <div
+              class="css-j7qwjs"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="css-70aikg"
+    >
+      <ul
+        class="css-19ndbdu"
+      >
+        <li
+          class="css-992tcj"
+        >
+          <a
+            class="css-u5zpo1"
+          >
+            Articles
+          </a>
+        </li>
+        <li
+          class="css-992tcj"
+        >
+          <a
+            class="css-u5zpo1"
+          >
+            About
+          </a>
+        </li>
+        <li
+          class="css-992tcj"
+        >
+          <a
+            class="css-u5zpo1"
+          >
+            Help
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`article page should show error 404 1`] = `
+<DocumentFragment>
+  <div
+    class="css-3z75l1"
+  >
+    <h2
+      class="css-p5x3r9"
+    >
+      404 | Page not found
+    </h2>
+    <div
+      class="css-nmceeh"
+    >
+      <a
+        href="/"
+      >
+        <button
+          class="css-1vr2bmh"
+          type="button"
+        >
+          Home
+        </button>
+      </a>
+      <button
+        class="css-jo9fku"
+        data-testid="back"
+        type="button"
+      >
+        Back
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

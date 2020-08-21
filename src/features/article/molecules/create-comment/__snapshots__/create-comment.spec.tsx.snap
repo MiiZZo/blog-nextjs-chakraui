@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create comment component should match a shapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1cl7zdz"
+  >
+    <div
+      class="css-kjafn5"
+    >
+      <textarea
+        class="css-jq13t9"
+        data-testid="textarea"
+        name="comment"
+        placeholder="Write a comment..."
+      />
+      <div
+        class="css-1f4xxbf"
+      >
+        <div
+          aria-valuemax="500"
+          aria-valuemin="0"
+          aria-valuenow="0"
+          class="css-1bfqfh5"
+          data-testid="circular-indicator"
+          role="progressbar"
+        >
+          <svg
+            class="css-24ggqe"
+            viewBox="55.55555555555556 55.55555555555556 111.11111111111111 111.11111111111111"
+          >
+            <circle
+              class="css-9y0bww"
+              cx="111.11111111111111"
+              cy="111.11111111111111"
+              data-progress-track="true"
+              r="50"
+              stroke-dasharray="314.159"
+              stroke-dashoffset="0"
+              stroke-width="11.111111111111112"
+            />
+            <circle
+              class="css-ich4kh"
+              cx="111.11111111111111"
+              cy="111.11111111111111"
+              data-progress-indicator="true"
+              r="50"
+              stroke-dasharray="314.159"
+              stroke-dashoffset="314.1592653589793"
+              stroke-width="11.111111111111112"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <button
+      class="css-skyqpb"
+      data-testid="submit"
+      type="button"
+    >
+      Submit comment
+    </button>
+    <button
+      class="css-w8jeta"
+      data-testid="close"
+      type="button"
+    >
+      Close
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`create comment component should open modal 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1cl7zdz"
+  >
+    <div
+      class="css-kjafn5"
+    >
+      <textarea
+        class="css-jq13t9"
+        data-testid="textarea"
+        name="comment"
+        placeholder="Write a comment..."
+      >
+        my value
+      </textarea>
+      <div
+        class="css-1f4xxbf"
+      >
+        <div
+          aria-valuemax="500"
+          aria-valuemin="0"
+          aria-valuenow="8"
+          class="css-1bfqfh5"
+          data-testid="circular-indicator"
+          role="progressbar"
+        >
+          <svg
+            class="css-24ggqe"
+            viewBox="55.55555555555556 55.55555555555556 111.11111111111111 111.11111111111111"
+          >
+            <circle
+              class="css-9y0bww"
+              cx="111.11111111111111"
+              cy="111.11111111111111"
+              data-progress-track="true"
+              r="50"
+              stroke-dasharray="314.159"
+              stroke-dashoffset="0"
+              stroke-width="11.111111111111112"
+            />
+            <circle
+              class="css-ich4kh"
+              cx="111.11111111111111"
+              cy="111.11111111111111"
+              data-progress-indicator="true"
+              r="50"
+              stroke-dasharray="314.159"
+              stroke-dashoffset="309.1327171132356"
+              stroke-width="11.111111111111112"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <button
+      class="css-skyqpb"
+      data-testid="submit"
+      type="button"
+    >
+      Submit comment
+    </button>
+    <button
+      class="css-w8jeta"
+      data-testid="close"
+      type="button"
+    >
+      Close
+    </button>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`footer component should be match a shapshot 1`] = `
+<DocumentFragment>
+  <footer
+    class="css-70aikg"
+  >
+    <ul
+      class="css-19ndbdu"
+    >
+      <li
+        class="css-992tcj"
+      >
+        <a
+          class="css-u5zpo1"
+        >
+          Articles
+        </a>
+      </li>
+      <li
+        class="css-992tcj"
+      >
+        <a
+          class="css-u5zpo1"
+        >
+          About
+        </a>
+      </li>
+      <li
+        class="css-992tcj"
+      >
+        <a
+          class="css-u5zpo1"
+        >
+          Help
+        </a>
+      </li>
+    </ul>
+  </footer>
+</DocumentFragment>
+`;

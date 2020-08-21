@@ -1,0 +1,16 @@
+import { Meta, Story, Props, Preview } from '@storybook/addon-docs/blocks';
+import { text } from "@storybook/addon-knobs"
+import { Box } from "@chakra-ui/core";
+import Profile from "./profile";
+
+<Meta title="Features|User/pages" component={Profile} />
+
+# Profile page
+
+<Props of={Profile} />
+
+<Preview>
+  <Story name="profile">
+    <Profile username={text("username", "username")} articles={[]} />
+  </Story>
+</Preview>

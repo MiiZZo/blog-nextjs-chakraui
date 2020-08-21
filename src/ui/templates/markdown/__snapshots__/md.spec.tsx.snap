@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`md component should match a shapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <pre>
+        <code
+          class="css-1e0ioh3 hljs 1c"
+        >
+                
+          <span
+            class="hljs-meta"
+          >
+            # My blockquote
+          </span>
+          
+  
+      
+        </code>
+      </pre>
+      <pre>
+        <code
+          class="lang-jsx css-1e0ioh3 hljs javascript"
+        >
+                      
+          <span
+            class="hljs-keyword"
+          >
+            import
+          </span>
+           React 
+          <span
+            class="hljs-keyword"
+          >
+            from
+          </span>
+           
+          <span
+            class="hljs-string"
+          >
+            "react"
+          </span>
+          ;
+  
+            
+          <span
+            class="hljs-keyword"
+          >
+            const
+          </span>
+           Component = 
+          <span
+            class="hljs-function"
+          >
+            () =&gt;
+          </span>
+           
+          <span
+            class="xml"
+          >
+            <span
+              class="hljs-tag"
+            >
+              &lt;
+              <span
+                class="hljs-name"
+              >
+                div
+              </span>
+              &gt;
+            </span>
+            <span
+              class="hljs-tag"
+            >
+              &lt;/
+              <span
+                class="hljs-name"
+              >
+                div
+              </span>
+              &gt;
+            </span>
+          </span>
+        </code>
+      </pre>
+    </div>
+  </div>
+</DocumentFragment>
+`;
